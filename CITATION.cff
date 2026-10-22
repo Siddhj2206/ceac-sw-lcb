@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this simulator, please cite the associated project report."
+title: "Scalable Capability- and Energy-Aware Clustered SW-LCB for Heterogeneous Spectrum Allocation in UAV-Assisted Emergency Communication Networks"
+abstract: >-
+  Discrete-time simulator of UAV-assisted emergency communication networks with
+  LTE and IEEE 802.11b/g partially overlapping channels, comparing the proposed
+  CEAC-SW-LCB scheme against random, greedy, UCB, decaying-epsilon Thompson
+  sampling and SW-LCB baselines under time-varying interference.
+authors:
+  - family-names: Jain
+    given-names: Siddhant
+    affiliation: "Computer Networks course project"
+  - family-names: Taparia
+    given-names: Divyam
+    affiliation: "Computer Networks course project"
+  - family-names: Kesharwani
+    given-names: Utsav
+    affiliation: "Computer Networks course project"
+version: 0.1.0
+date-released: 2026-10-22
+license: MIT
+type: software
+keywords:
+  - UAV
+  - emergency communication networks
+  - heterogeneous spectrum allocation
+  - multi-armed bandits
+  - SW-LCB
+  - clustering
+references:
+  - type: article
+    title: "QoS-aware heterogeneous spectrum allocation for UAV-assisted emergency communication networks"
+    authors:
+      - family-names: Li
+    journal: Vehicular Communications
+    volume: 60
+    start: 101042
+    year: 2026
+    notes: "Base paper (Li et al.); author list abbreviated here."

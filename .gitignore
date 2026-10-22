@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (recreate with `uv sync`)
+.venv/
+venv/
+env/
+
+# Packaging / test / lint caches
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local scratch output. The tracked results/ and figures/ are the
+# publication outputs and must not be overwritten by smoke runs.
+results/*.tmp
+results/quick/
